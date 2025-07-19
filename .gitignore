@@ -8,4 +8,4 @@ node_modules/
 dist/
 
 # Ignore image/assets folder
-assets/
+
