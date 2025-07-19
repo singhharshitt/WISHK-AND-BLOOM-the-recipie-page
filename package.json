@@ -13,6 +13,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^24.0.3",
+    "rollup": "^3.29.4",
     "tailwindcss": "^4.1.10",
     "vite": "^5.2.0"
   },
