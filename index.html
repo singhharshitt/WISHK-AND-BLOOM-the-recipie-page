@@ -148,48 +148,48 @@
 </style>
 
 <body>
-    <nav class="bg-[#D97D54] flex items-center justify-between p-3 shadow-md shadow-black">
-        <div class="w-24 h-24 m-3">
+    <nav class="bg-[#D97D54] flex flex-col md:flex-row items-center justify-between p-3 shadow-md shadow-black">
+        <div class="w-20 h-20 md:w-24 md:h-24 m-3">
             <img src="assets/logo1.11.png" alt="Logo" class="w-full h-full object-contain rounded-full border-2 transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
         </div>
 
-        <div class="flex items-center gap-4 font-medium">
-            <a href="index.html" class="text-xl bitter-bold hover:underline">Home</a>
-            <a href="recipie.html" class="text-xl bitter-bold hover:underline">Recipie</a>
-            <a href="about.html" class="text-xl bitter-bold hover:underline">About</a>
-            <a href="contact.html" class="text-xl bitter-bold hover:underline">Contact Us</a>
+        <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4 font-medium">
+            <a href="index.html" class="text-lg md:text-xl bitter-bold hover:underline">Home</a>
+            <a href="recipie.html" class="text-lg md:text-xl bitter-bold hover:underline">Recipie</a>
+            <a href="about.html" class="text-lg md:text-xl bitter-bold hover:underline">About</a>
+            <a href="contact.html" class="text-lg md:text-xl bitter-bold hover:underline">Contact Us</a>
         </div>
     </nav>
 
     <!--MY HERO-SECTION-->
-    <section class="h-screen flex gap-2 items-center justify-center pt-5 bg-[#FAF4EF]">
+    <section class="h-auto min-h-screen flex flex-col gap-2 items-center justify-center pt-5 bg-[#FAF4EF] px-4">
         <div class="flex flex-col items-center justify-center min-h-[140px] mt-2">
-            <h2 class="text-6xl winky-rough-regular md:text-8xl font-extrabold text-gray-800 mb-3 -mt-30">
+            <h2 class="text-4xl winky-rough-regular md:text-8xl font-extrabold text-gray-800 mb-3 -mt-30 text-center">
                 Whisk & Bloom
             </h2>
-            <p class=""><i>Curated recipes for slow, soulful cooking</i></p>
+            <p class="text-center"><i>Curated recipes for slow, soulful cooking</i></p>
         </div>
     </section>
 
     <!--FAB RECIPIE-->
-    <section class="max-h-full bg-[#E5D8C6]">
+    <section class="max-h-full bg-[#E5D8C6] px-2 md:px-0">
         <div class="flex justify-center items-center w-full pb-10">
             <div class="flex flex-col items-center justify-center mt-2 p-4">
                 <h1
-                    class="block text-3xl text-center libertinus-mono-regular md:text-4xl font-extrabold text-gray-900 mb-3.5">
+                    class="block text-2xl text-center libertinus-mono-regular md:text-4xl font-extrabold text-gray-900 mb-3.5">
                     <span class="border-b-4 rounded-sm">Fam</span>ous Recipie
                 </h1>
-                <h2 class="text-xl text-center bitter-semibold md:text-2xl">
+                <h2 class="text-lg text-center bitter-semibold md:text-2xl">
                     Whispers Of Winter: Banarsi
                     <span class="border-b-4 rounded-sm">Malaiyyo</span>
                 </h2>
             </div>
         </div>
         <div class="grid grid-cols-1 gap-3 md:grid-cols-2">
-            <div class="m-8">
-                <img src="assets/malayoo.png" class="border-1 rounded-lg w-[600px] h-[600px] transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:ring-2 hover:ring-gray-800" />
+            <div class="m-2 md:m-8 flex justify-center items-center">
+                <img src="assets/malayoo.png" class="border-1 rounded-lg w-full max-w-[400px] md:max-w-[600px] h-auto md:h-[600px] transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:ring-2 hover:ring-gray-800" />
             </div>
-            <div class="ml-12 py-3">
+            <div class="ml-0 md:ml-12 py-3 px-2 md:px-0">
                 <h3 class="mt-10 open-sans-bold text-md mb-4">
                     <span class="border-2 rounded-md p-1.5">Ingredients</span>
                 </h3>
@@ -247,14 +247,14 @@
 
     <!--LIST OF ITEMS PRESENT-->
     <section class="bg-[#FAF4EF] pb-7">
-        <div class="flex justify-center items-center w-full p-10">
-            <h2 class="text-3xl libertinus-mono-regular md:text-4xl "><span class="border-b-4 rounded-sm">You
+        <div class="flex justify-center items-center w-full p-6 md:p-10">
+            <h2 class="text-2xl  libertinus-mono-regular md:text-4xl "><span class="border-b-4 rounded-sm">You
                     M</span>ight Also Love</h2>
         </div>
-        <div class=" grid grid-cols-2 md:grid-cols-4 p-6 px-5 gap-x-6 gap-y-8 ">
-            <div class="border-2 p-6 rounded-lg hover:scale-105 transition-transform duration-500 hover:shadow-lg">
-                <div><img src="assets/tamatar_chat.png" class="object-cover w-full h-auto rounded-lg"></div>
-                <div class="my-3">
+        <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 p-2 md:p-6 px-2 md:px-5 gap-x-4 md:gap-x-6 gap-y-6 md:gap-y-8 ">
+            <div class="border-2 p-4 md:p-6 rounded-lg hover:scale-105 transition-transform duration-500 hover:shadow-lg flex flex-col">
+                <div><img src="assets/tamatar_chat.png" class="object-cover w-full h-40 md:h-auto rounded-lg"></div>
+                <div class="my-3 flex-1 flex flex-col">
                     <h3 class="text-md text-[#3E3E3E] bitter-bold">Tamatar Chat</h3>
                     <p class="w-full open-sans-normal">Spicy mashed tomatoes cooked with spices, ghee, and served hot
                         with crispies, chutneys, and chaat masala</p>
@@ -266,9 +266,9 @@
                 </div>
             </div>
 
-            <div class="border-2 p-6 rounded-lg hover:scale-105 transition-transform duration-500 hover:shadow-lg">
-                <div><img src="assets/sweet.png" class="object-cover w-full h-auto rounded-lg"></div>
-                <div class="my-3">
+            <div class="border-2 p-4 md:p-6 rounded-lg hover:scale-105 transition-transform duration-500 hover:shadow-lg flex flex-col">
+                <div><img src="assets/sweet.png" class="object-cover w-full h-40 md:h-auto rounded-lg"></div>
+                <div class="my-3 flex-1 flex flex-col">
                     <h3 class="text-md text-[#3E3E3E] bitter-bold">Launglata</h3>
                     <p class="w-full open-sans-normal">Deep-fried pastry filled with khoya (milk solids) and dry fruits,
                         dipped in sugar syrup</p>
@@ -280,9 +280,9 @@
                 </div>
             </div>
 
-            <div class="border-2 p-6 rounded-lg hover:scale-105 transition-transform duration-500 hover:shadow-lg ">
-                <div><img src="assets/daal_baati.png" class="object-cover w-full h-auto rounded-lg "> </div>
-                <div class="my-3">
+            <div class="border-2 p-4 md:p-6 rounded-lg hover:scale-105 transition-transform duration-500 hover:shadow-lg flex flex-col ">
+                <div><img src="assets/daal_baati.png" class="object-cover w-full h-40 md:h-auto rounded-lg "> </div>
+                <div class="my-3 flex-1 flex flex-col">
                     <h3 class="text-md text-[#3E3E3E] bitter-bold">Baati Chokha</h3>
                     <p class="w-full open-sans-normal">Roasted wheat balls (baati) served with mashed spiced veggies
                         (chokha — made of potato, brinjal, and tomato)</p>
@@ -295,9 +295,9 @@
             </div>
 
 
-            <div class="border-2 p-6 rounded-lg hover:scale-105 transition-transform duration-500 hover:shadow-lg ">
-                <div><img src="assets/thandai.png" class="object-cover w-full h-auto rounded-lg"></div>
-                <div class="my-3">
+            <div class="border-2 p-4 md:p-6 rounded-lg hover:scale-105 transition-transform duration-500 hover:shadow-lg flex flex-col ">
+                <div><img src="assets/thandai.png" class="object-cover w-full h-40 md:h-auto rounded-lg"></div>
+                <div class="my-3 flex-1 flex flex-col">
                     <h3 class="text-md text-[#3E3E3E] bitter-bold">Thandai</h3>
                     <p class="w-full open-sans-normal">A cooling milk-based drink made with almonds, fennel seeds, rose
                         petals, pepper, and sometimes bhang</p>
@@ -316,20 +316,20 @@
     <!--CUSTOMER REVIEWS-->
 
     <section class="bg-[#EFE3D4]">
-        <div class="flex justify-center items-center w-full p-10">
-            <h2 class="text-3xl md:4xl libertinus-mono-regular"> <span class="border-b-4 rounded-sm">CUST</span>OMERS
+        <div class="flex justify-center items-center w-full p-6 md:p-10">
+            <h2 class="text-2xl md:text-3xl md:4xl libertinus-mono-regular"> <span class="border-b-4 rounded-sm">CUST</span>OMERS
                 REVIEW</h2>
 
         </div>
-        <div class="grid grid-cols-2 md:grid-cols-3 p-6 px-5 gap-x-6 gap-y-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-2 md:p-6 px-2 md:px-5 gap-x-4 md:gap-x-6 gap-y-6 md:gap-y-8">
             <div>
                 <div
-                    class="grid grid-cols-2 w-auto gap-3 border-2 border-gray-900 p-4 bg-[#FAF4EF] rounded-md min-h-[15rem] float-up-down">
-                    <div class="w-20 h-20">
-                        <img src="assets/man1.jpg" class="rounded-full border-2 border-black">
+                    class="grid grid-cols-1 sm:grid-cols-2 w-auto gap-3 border-2 border-gray-900 p-4 bg-[#FAF4EF] rounded-md min-h-[15rem] float-up-down">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto">
+                        <img src="assets/man1.jpg" class="rounded-full border-2 border-black w-full h-full object-cover">
                     </div>
                     <div>
-                        <p class="text-sm text-gray-600 text-center"><i>"I had never tasted anything so delicate and
+                        <p class="text-xs md:text-sm text-gray-600 text-center"><i>"I had never tasted anything so delicate and
                                 magical. The Malaiyyo simply melts on your tongue - it’s like tasting morning dew kissed
                                 by
                                 saffron and cardamom. Served in a kulhad with a silver leaf, it’s not just a dessert,
@@ -343,12 +343,12 @@
             </div>
             <div>
                 <div
-                    class="grid grid-cols-2 w-auto gap-3 border-2 border-gray-900 p-4 bg-[#FAF4EF] rounded-md min-h-[15rem] float-up-down">
-                    <div class="w-20 h-20">
-                        <img src="assets/man2.jpg" class="rounded-full border-2 border-black">
+                    class="grid grid-cols-1 sm:grid-cols-2 w-auto gap-3 border-2 border-gray-900 p-4 bg-[#FAF4EF] rounded-md min-h-[15rem] float-up-down">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto">
+                        <img src="assets/man2.jpg" class="rounded-full border-2 border-black w-full h-full object-cover">
                     </div>
                     <div>
-                        <p class="text-sm text-gray-600 text-center "><i>"Forget everything you know about chaat. The
+                        <p class="text-xs md:text-sm text-gray-600 text-center "><i>"Forget everything you know about chaat. The
                                 Banarasi tamatar chaat hits you with layers - tangy, spicy, buttery, and oh-so-warm. I
                                 was
                                 shocked something this chaotic could be this addictive. Served piping hot in a clay cup
@@ -362,12 +362,12 @@
             </div>
             <div>
                 <div
-                    class="grid grid-cols-2 w-auto gap-3 border-2 border-gray-900 p-4 bg-[#FAF4EF] rounded-md min-h-[15rem] float-up-down">
-                    <div class="w-20 h-20">
-                        <img src="assets/woman1.jpg" class="rounded-full border-2 border-black">
+                    class="grid grid-cols-1 sm:grid-cols-2 w-auto gap-3 border-2 border-gray-900 p-4 bg-[#FAF4EF] rounded-md min-h-[15rem] float-up-down">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto">
+                        <img src="assets/woman1.jpg" class="rounded-full border-2 border-black w-full h-full object-cover">
                     </div>
                     <div>
-                        <p class="text-sm text-gray-600 text-center "><i>"Sipping chilled thandai under the Varanasi
+                        <p class="text-xs md:text-sm text-gray-600 text-center "><i>"Sipping chilled thandai under the Varanasi
                                 sun,
                                 with a crispy Launglata melting in your mouth — it felt like a festival on my palate.
                                 The
@@ -385,7 +385,7 @@
     <!--FOOTER SECTION-->
 
     <footer class="w-full bg-[#D97D54]">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full p-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full p-6 md:p-10">
         <!-- Designer Info -->
         <div>
             <h1 class="text-md bitter-extrabold">Designed By Harshit Singh!</h1>
@@ -410,8 +410,8 @@
             </ul>
         </div>
 
-        <div class="md:col-span-3">
-            <div class="flex gap-5 justify-center md:justify-start">
+        <div class="md:col-span-3 mt-6 md:mt-0">
+            <div class="flex flex-wrap gap-5 justify-center md:justify-start">
                 <a href="https://x.com/home" alt="X" target="_blank" class="hover:opacity-80">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M22.25 2H1.75C.78 2 0 2.78 0 3.75v16.5C0 21.22.78 22 1.75 22h20.5c.97 0 1.75-.78 1.75-1.75V3.75C24 2.78 23.22 2 22.25 2Zm-5.95 13.32h-1.9l-2.59-3.5-2.99 3.5H7.01l3.84-4.48L7.5 7.09h1.89l2.3 2.95 2.55-2.95h1.94l-3.78 4.27 3.7 4.96Z"/>
